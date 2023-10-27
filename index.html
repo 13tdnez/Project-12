@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Wars Trivia Quiz</title>
+  <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+<div class="container">
+  <h1>Star Wars Trivia Quiz!</h1>
+  <p>What is Mando's real name from the Mandalorian?</p>
+  <div>
+    <input type="radio" name="answer1" value="a" id="a">
+    <label for="a">a) Baylan Skoll</label>
+  </div>
+  <div>
+    <input type="radio" name="answer1" value="b" id="b">
+    <label for="b">b) Greef Karga</label>
+  </div>
+  <div>
+    <input type="radio" name="answer1" value="c" id="c">
+    <label for="c">c) Din Djarin</label>
+  </div>
+  <div>
+    <input type="radio" name="answer1" value="d" id="d">
+    <label for="d">d) Kuill</label>
+  </div>
+  
+
+  <p>Who had the highest midi-chlorian count in Star Wars?</p>
+  <div>
+    <input type="radio" name="answer2" value="a" id="a">
+    <label for="a">a) Rey</label>
+  </div>
+  <div>
+    <input type="radio" name="answer2" value="b" id="b">
+    <label for="b">b) Yoda</label>
+  </div>
+  <div>
+    <input type="radio" name="answer2" value="c" id="c">
+    <label for="c">c) Emperor Palpatine</label>
+  </div>
+  <div>
+    <input type="radio" name="answer2" value="d" id="d">
+    <label for="d">d) Anakin Skywalker</label>
+  </div>
+
+
+  <p>Who killed Snoke?</p>
+  <div>
+    <input type="radio" name="answer3" value="a" id="a">
+    <label for="a">a) Kylo Ren</label>
+  </div>
+  <div>
+    <input type="radio" name="answer3" value="b" id="b">
+    <label for="b">b) Rey</label>
+  </div>
+  <div>
+    <input type="radio" name="answer3" value="c" id="c">
+    <label for="c">c) Han Solo</label>
+  </div>
+  <div>
+    <input type="radio" name="answer3" value="d" id="d">
+    <label for="d">d) Chewbacca</label>
+  </div>
+
+  <p>What year did the first Star Wars Movie come out?</p>
+  <div>
+    <input type="radio" name="answer4" value="a" id="a">
+    <label for="a">a) 1981</label>
+  </div>
+  <div>
+    <input type="radio" name="answer4" value="b" id="b">
+    <label for="b">b) 1977</label>
+  </div>
+  <div>
+    <input type="radio" name="answer4" value="c" id="c">
+    <label for="c">c) 1975</label>
+  </div>
+  <div>
+    <input type="radio" name="answer4" value="d" id="d">
+    <label for="d">d) 1987</label>
+  </div>
+
+  <p>Where is Jabba the Hutt's Palace Located?</p>
+  <div>
+    <input type="radio" name="answer5" value="a" id="a">
+    <label for="a">a) Dantooine</label>
+  </div>
+  <div>
+    <input type="radio" name="answer5" value="b" id="b">
+    <label for="b">b) Hoth</label>
+  </div>
+  <div>
+    <input type="radio" name="answer5" value="c" id="c">
+    <label for="c">c) Tatooine</label>
+  </div>
+  <div>
+    <input type="radio" name="answer5" value="d" id="d">
+    <label for="d">d) Corellia</label>
+  </div>
+
+  <div>
+    <button onclick="checkAllAnswers()">Submit</button>
+  <div id="feedback"></div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.8.3/dist/d3.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
